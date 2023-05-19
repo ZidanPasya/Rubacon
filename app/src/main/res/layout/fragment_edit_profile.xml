@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/editProfBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/fifthshape">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:drawableStart="@drawable/back"
+                android:text="Edit Profile"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/editImage"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/editProfBar"
+            android:layout_marginTop="40dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pp2"
+                />
+            
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/editpp"
+                android:background="@null"
+                android:alpha=".75"
+                />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/editUsername"
+            android:layout_width="290dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/editImage"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/editUsna"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/username2"
+                android:layout_centerVertical="true"
+                />
+            
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@+id/editUsna"
+                android:layout_marginLeft="25dp"
+                >
+
+                <TextView
+                    android:id="@+id/textUsna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textUsna"
+                    android:text="Parman"
+                    android:textSize="12dp"
+                    />
+
+            </RelativeLayout>
+            
+            <ImageButton
+                android:id="@+id/edit"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:src="@drawable/edit"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/editPassword"
+            android:layout_width="290dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/editUsername"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <ImageView
+                android:id="@+id/editPass"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/password2"
+                android:layout_centerVertical="true"
+                />
+
+            <RelativeLayout
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@+id/editPass"
+                android:layout_marginLeft="25dp"
+                >
+
+                <TextView
+                    android:id="@+id/textPass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textPass"
+                    android:text="*******"
+                    android:textSize="12dp"
+                    />
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/edit2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:src="@drawable/edit"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

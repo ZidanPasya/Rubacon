@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Settings">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/settingBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fifthshape"
+                />
+            
+            <Button
+                android:id="@id/back"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:drawableStart="@drawable/back"
+                android:text="Settings"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:background="@null"
+                />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/settingBar"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:id="@+id/setNotif"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <ImageView
+                    android:id="@+id/setNotifPic"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/notification"
+                    />
+                
+                <TextView
+                    android:id="@+id/setNotifText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/setNotifPic"
+                    android:text="Notification"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    />
+                
+                <androidx.appcompat.widget.SwitchCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:thumb="@drawable/switchthumb"
+                    app:track="@drawable/switchtrack"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/setDark"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_below="@+id/setNotif"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/setDarkPic"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/dark"
+                    />
+
+                <TextView
+                    android:id="@+id/setDarkText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/setDarkPic"
+                    android:text="Dark Mode"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:thumb="@drawable/switchthumb"
+                    app:track="@drawable/switchtrack"
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Favorite">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="420dp"
+                android:layout_height="1110dp"
+                android:layout_marginTop="60dp">
+
+                <RelativeLayout
+                    android:id="@+id/leftBook"
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:id="@+id/book1"
+                        android:layout_width="105dp"
+                        android:layout_height="190dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_centerHorizontal="true">
+
+                        <ImageView
+                            android:id="@+id/picBook1"
+                            android:layout_width="105dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/perahukertas"/>
+
+                        <TextView
+                            android:id="@+id/textPerahuKertas"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/picBook1"
+                            android:text="Perahu \nKertas"
+                            android:maxLines="2"
+                            android:fontFamily="sans-serif"
+                            android:textSize="12dp"
+                            android:textAlignment="center"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/book2"
+                        android:layout_width="105dp"
+                        android:layout_height="190dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/book1">
+
+                        <ImageView
+                            android:id="@+id/picBook2"
+                            android:layout_width="105dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/perahukertas"/>
+
+                        <TextView
+                            android:id="@+id/textPerahuKertas2"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/picBook2"
+                            android:text="Perahu \nKertas"
+                            android:maxLines="2"
+                            android:fontFamily="sans-serif"
+                            android:textSize="12dp"
+                            android:textAlignment="center"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/book3"
+                        android:layout_width="105dp"
+                        android:layout_height="190dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/book2">
+
+                        <ImageView
+                            android:id="@+id/picBook3"
+                            android:layout_width="105dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/perahukertas"/>
+
+                        <TextView
+                            android:id="@+id/textPerahuKertas3"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/picBook3"
+                            android:text="Perahu \nKertas"
+                            android:maxLines="2"
+                            android:fontFamily="sans-serif"
+                            android:textSize="12dp"
+                            android:textAlignment="center"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/book4"
+                        android:layout_width="105dp"
+                        android:layout_height="190dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/book3">
+
+                        <ImageView
+                            android:id="@+id/picBook4"
+                            android:layout_width="105dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/perahukertas"/>
+
+                        <TextView
+                            android:id="@+id/textPerahuKertas4"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/picBook4"
+                            android:text="Perahu \nKertas"
+                            android:maxLines="2"
+                            android:fontFamily="sans-serif"
+                            android:textSize="12dp"
+                            android:textAlignment="center"
+                            />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rightBook"
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/leftBook">
+
+                    <RelativeLayout
+                        android:id="@+id/book5"
+                        android:layout_width="105dp"
+                        android:layout_height="190dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_centerHorizontal="true">
+
+                        <ImageView
+                            android:id="@+id/picBook5"
+                            android:layout_width="105dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/perahukertas"/>
+
+                        <TextView
+                            android:id="@+id/textPerahuKertas5"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/picBook5"
+                            android:text="Perahu \nKertas"
+                            android:maxLines="2"
+                            android:fontFamily="sans-serif"
+                            android:textSize="12dp"
+                            android:textAlignment="center"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/book6"
+                        android:layout_width="105dp"
+                        android:layout_height="190dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/book5">
+
+                        <ImageView
+                            android:id="@+id/picBook6"
+                            android:layout_width="105dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/perahukertas"/>
+
+                        <TextView
+                            android:id="@+id/textPerahuKertas6"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/picBook6"
+                            android:text="Perahu \nKertas"
+                            android:maxLines="2"
+                            android:fontFamily="sans-serif"
+                            android:textSize="12dp"
+                            android:textAlignment="center"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/book7"
+                        android:layout_width="105dp"
+                        android:layout_height="190dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/book6">
+
+                        <ImageView
+                            android:id="@+id/picBook7"
+                            android:layout_width="105dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/perahukertas"/>
+
+                        <TextView
+                            android:id="@+id/textPerahuKertas7"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/picBook7"
+                            android:text="Perahu \nKertas"
+                            android:maxLines="2"
+                            android:fontFamily="sans-serif"
+                            android:textSize="12dp"
+                            android:textAlignment="center"
+                            />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/book8"
+                        android:layout_width="105dp"
+                        android:layout_height="190dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/book7">
+
+                        <ImageView
+                            android:id="@+id/picBook8"
+                            android:layout_width="105dp"
+                            android:layout_height="150dp"
+                            android:src="@drawable/perahukertas"/>
+
+                        <TextView
+                            android:id="@+id/textPerahuKertas8"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_below="@+id/picBook8"
+                            android:text="Perahu \nKertas"
+                            android:maxLines="2"
+                            android:fontFamily="sans-serif"
+                            android:textSize="12dp"
+                            android:textAlignment="center"
+                            />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/favoriteBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/notifShape"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/fifthshape"/>
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="#A3E8ED"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:id="@+id/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/back"
+            android:fontFamily="sans-serif"
+            android:text="Favorite"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Pengembalian">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/peminjamanBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/notifShape"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fifthshape"/>
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/back"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:background="#A3E8ED"/>
+
+            <TextView
+                android:id="@+id/peminjaman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/back"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="Peminjaman Buku"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/peminjamanBar">
+
+            <ImageView
+                android:id="@+id/barcode"
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/barcode"
+                />
+
+            <Button
+                android:id="@+id/kodePeminjaman"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/barcode"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:text="Kode Peminjaman"/>
+
+            <Button
+                android:id="@+id/tanggalPengembalian"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kodePeminjaman"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Tanggal_Pengembalian"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
