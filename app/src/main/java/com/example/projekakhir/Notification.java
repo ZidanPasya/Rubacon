@@ -31,6 +31,7 @@ public class Notification extends Fragment {
             }
         });
 
+        
         return view;
     }
 }
